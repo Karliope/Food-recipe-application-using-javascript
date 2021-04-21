@@ -305,7 +305,7 @@ const foods = [
   {
     id: 24,
     food: "Mandazi",
-    recipe: `n a mixing bowl, combine the flour, baking powder, and the sugar.
+    recipe: `In a mixing bowl, combine the flour, baking powder, and the sugar.
     Mix the water and the vegetable oil. Gradually add this mixture to the flour while kneading into dough. Use additional water if necessary.
     Knead for about fifteen to twenty minutes until a smooth and elastic dough is formed.
     let dough rest for several minutes.

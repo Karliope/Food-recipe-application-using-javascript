@@ -12,12 +12,17 @@
 body {
   background: radial-gradient(darkorange, rgb(0, 0, 3));
   min-height: 100vh;
+  position: relative;
 }
 
 .search-wrapper {
   display: flex;
   justify-content: space-between;
   background-color: lightseagreen;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 10;
 }
 
 .search {
@@ -62,7 +67,9 @@ body {
   grid-template-columns: repeat(auto-fit, 300px);
   justify-content: space-evenly;
   gap: 10px;
-  margin: 20px 0;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  z-index: 1;
 }
 
 .food {
@@ -94,11 +101,17 @@ body {
   height: 100%;
 }
 
+.food-recipe {
+  overflow: hidden;
+}
+
 .rec {
   color: white;
   padding: 10px;
   line-height: 1.5em;
   list-style-type: lower-roman;
+  z-index: 999;
+  margin-top: 100px;
 }
 
 .btn-class {
